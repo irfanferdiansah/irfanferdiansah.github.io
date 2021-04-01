@@ -1,0 +1,241 @@
+  html {
+    scroll-behavior: smooth;
+  }
+    .garis{
+        border-bottom: 2px solid cornsilk;
+        width: 320px;
+      }
+      
+      .navbar-brand{
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 28px;
+        transition: all 0.2s ease-in-out;
+        margin-left: 5px;
+      }
+    
+      .navbar-brand:hover{
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 32px;
+        transition: all 0.2s ease-in-out;
+      }
+    
+      .nav-link{
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 29px;
+        transition: all 0.2s ease-in-out !important;
+      }
+    
+      
+      .nav-link:hover{
+        font-family: 'Amatic SC', cursive !important;
+        content: '';
+        border-bottom: 1px solid red !important;
+        transition: all 0.2s ease-in-out !important;
+      }
+
+      
+/* Mode Mobile */
+@media (min-width: 300px){
+.nav-link{
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out !important;
+}
+.nav-bg {
+  background-color:  rgba(0, 0, 0, 0.781) !important; 
+}
+
+.garis {
+  width: 150px;
+}
+.carousel-caption{
+  margin-bottom: 0%;
+}
+.cc{
+  width: 100% !important;
+}
+
+
+
+.logo-footer{
+  width: 100px;
+}
+
+.text-copy{
+  font-size: xx-small;
+}
+
+ 
+    .test-font {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 28px !important;
+        text-shadow: black !important;
+        
+        
+        margin-bottom: -10px !important;
+      }
+      .test-font-ngopi {
+        font-size: 10px !important;
+        margin-bottom: -60px !important;
+        
+    }
+    .test-font-ngops {
+      font-size: 20px !important;
+      text-shadow: black !important;
+      font-family: 'Amatic SC', cursive !important;
+  }
+      .test-font-selera {
+          font-size: 20px !important;
+          
+      }
+      .test-font-menu {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 50px !important;
+        
+    
+      }
+      .test-font-cathering {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 50px !important;
+      }
+      .test-font-form {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 50px !important;
+      }
+      .test-font-contact {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 50px !important;
+      }
+    .form-control {
+        width: 285px !important;
+    }
+    .form-control-pang {
+        width: 285px !important;
+    }
+    
+    .tombol {
+        text-transform: uppercase center;
+        border-radius: 20px;
+        width: fit-content;
+        text-align: center;
+        margin-bottom: -50px !important;
+        
+
+    }
+
+    .logo-navbar{
+      width: 70px;
+    }
+    .font-jumbotron {
+        font-size: 30px !important;
+    }
+    .font-jumbotron-prof {
+        font-size: 15px !important;
+    }
+  }
+/* Mode Dekstop */
+@media (min-width: 992px) { 
+  .nav-bg {
+    top: 0 !important; 
+    left: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 10px !important;
+    z-index: 10000 !important;
+    transition: all 0.2s ease-in-out !important;
+    background-color: transparent !important; 
+
+          }
+
+
+        
+  .nav-bg.active {
+     background-color: rgba(0, 0, 0, 0.781) !important; 
+    }
+  .logo-navbar{
+    width: 120px;
+    margin-top: -7px;
+  }
+  .carousel-caption{
+    margin-bottom: 20%;
+  }
+  .cc{
+    width: 37% !important;
+  }
+  .garis {
+    width: 240px;
+  }
+
+  .logo-footer{
+    width: 150px ;
+  }
+
+  .text-copy{
+    font-size: small;
+  }
+  .nav-link{
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 29px;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+    .test-font {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 56px !important;
+        text-shadow: black !important;
+        margin-bottom: 2% !important;
+      }
+      .test-font-ngops {
+        font-size: 30px !important;
+        text-shadow: black !important;
+        font-family: 'Amatic SC', cursive !important;
+    }
+      .test-font-selera {
+        font-size: 84px !important;
+        text-shadow: black !important;
+        font-family: 'Amatic SC', cursive !important;
+    }
+    .test-font-menu {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 84px !important;
+    
+      }
+      .test-font-cathering {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 84px !important;
+      }
+      .test-font-form {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 84px !important;
+      }
+      .test-font-contact {
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 84px !important;
+      }
+      .form-control {
+          width: 422px !important;
+      }
+      .icon-aing{
+        font-size: 2rem; color: ghostwhite;
+       
+      }
+ }
+      .form-size {
+        width: fit-content !important;
+      }
+      .tombol {
+        text-transform: uppercase center;
+        border-radius: 20px;
+        width: fit-content;
+        text-align: center;
+        margin-bottom: 3% !important;
+       
+        
+    }
+
+    
+
+    
+   
+    
+
+  
